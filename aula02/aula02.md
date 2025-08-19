@@ -1,10 +1,10 @@
-# Aula 02 – [Estrutura básica de um documento HTML]
+# Aula 02 – Estrutura básica de um documento HTML
 
 ## Objetivo
 
-- Nesta aula foi possível compreender a estrutura básica de um documento HTML, que consiste na declaração do tipo do documento '<!DOCTYPE html>', declaração das tags '<html>' que evolve todo o documento, e também das tags '<head>' e '<body>'.
-- A tag '<head>' é destinada principalmente a armazenar informações do documento que não ficam visíveis em tela.
-- A tag '<body>', armazena todo o conteúdo HTML que será exibido em tela para o usuário.
+- Nesta aula foi possível compreender a estrutura básica de um documento HTML, que consiste na declaração do tipo do documento <!DOCTYPE html>, declaração das tags <html> que evolve todo o documento, e também das tags <head> e <body>.
+- A tag <head> é destinada principalmente a armazenar informações do documento que não ficam visíveis em tela.
+- A tag <body>, armazena todo o conteúdo HTML que será exibido em tela para o usuário.
 
 ## Conteúdo Abordado
 
