@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../aula30/flexbox.css" />
+    <title>Document</title>
+
+    <style>
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .element {
+        /*
+        DEFAULT:
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        */
+        /* flex-basis: 300px; */
+        flex-shrink: 0;
+        /* flex-grow: 1; */
+      }
+
+      .el--1 {
+        align-self: flex-start;
+        /* flex-grow: 3; */
+      }
+
+      .el--2 {
+        align-self: stretch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="element el--1">HTML</div>
+      <div class="element el--2">and</div>
+      <div class="element el--3">CSS</div>
+      <div class="element el--4">are</div>
+      <div class="element el--5">amazing</div>
+      <div class="element el--6">languages</div>
+      <!-- <div class="element el--7">to</div>
+      <div class="element el--8">learn</div> -->
+    </div>
+  </body>
+</html>

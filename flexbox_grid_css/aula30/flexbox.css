@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 800px;
+  /* height: 900px; */
+  background-color: antiquewhite;
+  border: 10px solid black;
+  font-size: 30px;
+}
+
+.element {
+  /* height: 200px; */
+}
+
+.el--1 {
+  background-color: blueviolet;
+}
+
+.el--2 {
+  background-color: chocolate;
+}
+
+.el--3 {
+  background-color: orangered;
+}
+
+.el--4 {
+  background-color: green;
+  height: 250px;
+}
+
+.el--5 {
+  background-color: goldenrod;
+}
+
+.el--6 {
+  background-color: palevioletred;
+}
+
+.el--7 {
+  color: white;
+  background-color: black;
+}
+
+.el--8 {
+  background-color: brown;
+}
